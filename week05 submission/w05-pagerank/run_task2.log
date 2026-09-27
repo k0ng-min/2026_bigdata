@@ -1,0 +1,20 @@
+using py 
+Python 3.13.2
+[1/3] betas 0.5,0.7,0.85,0.95,0.99 
+  beta 0.5      14 iterations    0.046s   top: p00009, p00001, p00006
+  beta 0.7      17 iterations    0.058s   top: p00009, p00001, p00006
+  beta 0.85     20 iterations    0.048s   top: p00009, p00001, p00006
+  beta 0.95     23 iterations    0.035s   top: p00009, p00001, p00006
+  beta 0.99     24 iterations    0.032s   top: p00009, p00001, p00006
+
+  -> out/convergence.json  (5 run(s))
+[2/3] nodes 6000 betas 0.85,0.95 
+  beta 0.85     22 iterations    0.224s   top: p00009, p00001, p00006
+  beta 0.95     24 iterations    0.132s   top: p00009, p00001, p00006
+
+  -> out/convergence.json  (7 run(s))
+[3/3] tol 1e-6 beta 0.85 
+  beta 0.85     12 iterations    0.016s   top: p00009, p00001, p00006
+
+  -> out/convergence.json  (8 run(s))
+DONE_ALL 
